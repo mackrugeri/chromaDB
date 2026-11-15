@@ -2,10 +2,13 @@
 # Cosine distance compares vector direction. 
 # Inner-product distance also depends on magnitude.
 
-
 # L2 -> Eiuclidean Distance -> L2 measures the actual straight-line distance between two vectors.
 # cosine distance -> cosine measures the difference in direction between two vectors.
 # Inner Product -> measures how strongly two vectors align, including their magnitude.
+
+# L2 asks: How far apart are these vectors?
+# Cosine asks: Are these vectors pointing in the same direction?
+# IP asks: How strongly do these vectors align, considering their magnitudes?
 
 from math import sqrt
 from uuid import uuid4
