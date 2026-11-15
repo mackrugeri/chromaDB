@@ -58,3 +58,4 @@ def normalization(vector):
         raise ValueError("A zero vector has no direction")
     return [value / norm for value in vector]
 
+print(f"Normalization of vector: {normalization([3.0,4.0])}")
