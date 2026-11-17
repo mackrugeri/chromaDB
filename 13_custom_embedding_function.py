@@ -2,6 +2,8 @@ from chromadb.api.types import Documents, EmbeddingFunction, Embeddings
 from uuid import uuid4
 import chromadb
 
+## A custom function must satisfy Chroma’s embedding function interface. 
+## This simple implementation counts keywords so you can inspect exactly how vectors are produced.
 
 class keywordEmbeddingFunction(EmbeddingFunction[Documents]):
 
