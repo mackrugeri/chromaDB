@@ -289,21 +289,6 @@ Synthetic index recall measures nearest-neighbor accuracy. Evaluating semantic s
 | Model download failure | Check network access and model cache permissions. |
 | Validation error | Check list lengths, IDs, metadata types, and required inputs. |
 
-## Further Study
-
-- [ ] Loading documents from TXT, Markdown, and CSV files
-- [ ] Stable IDs and duplicate handling
-- [ ] Embedding model migration
-- [ ] Multimodal search
-- [ ] Tenant and database administration
-- [ ] Backup and restore verification
-- [ ] Docker deployment
-- [ ] Deployment security
-- [ ] Logging and monitoring
-- [ ] Version upgrades and migrations
-- [ ] Cloud sparse and hybrid search
-- [ ] Automated integration checks
-
 ## References
 
 - [Chroma documentation](https://docs.trychroma.com/)
